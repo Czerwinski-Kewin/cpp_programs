@@ -1,0 +1,36 @@
+﻿  Źródło.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xutility(1268,54): error C2794: „reference”: nie jest składową żadnej bezpośredniej lub pośredniej klasy bazowej „std::iterator_traits<_Iter>”
+          with
+          [
+              _Iter=std::basic_string<char,std::char_traits<char>,std::allocator<char>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xutility(4041): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::_Iter_ref_t<_OutIt>” klasy alias szablon
+          with
+          [
+              _OutIt=std::string
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xutility(4101): message : zobacz odwołanie do aktualnie kompilowanego szablonu zmiennych „const bool _Iterator_is_volatile<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >”
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xutility(4152): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „_OutIt std::_Copy_unchecked<std::basic_string<char,std::char_traits<char>,std::allocator<char>>*,_OutIt>(_InIt,_InIt,_OutIt)” funkcji szablon
+          with
+          [
+              _OutIt=std::string,
+              _InIt=std::basic_string<char,std::char_traits<char>,std::allocator<char>> *
+          ]
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab2_ngramy\Źródło.cpp(22): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „_OutIt std::copy<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,std::string>(_InIt,_InIt,_OutIt)” funkcji szablon
+          with
+          [
+              _OutIt=std::string,
+              _Ty=std::string,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::string>>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xutility(4041,13): error C2938: „std::_Iter_ref_t”: Nie powiodło się specjalizowanie szablonu aliasu
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xutility(4041): error C2062: nieoczekiwany typ "unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xutility(4041,13): error C3376: „std::_Iterator_is_volatile”: Dozwolone są tylko szablony statycznych składowych danych
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xutility(4135,19): error C2976: "std::_Iter_copy_cat": za mało argumentów szablon
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xutility(4103): message : zobacz deklarację „std::_Iter_copy_cat”
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xutility(4144,29): error C2675: jednoargumentowy "++": "_OutIt" nie definiuje tego operatora lub konwersji do typu akceptowalnego dla wstępnie zdefiniowanego operatora
+          with
+          [
+              _OutIt=std::string
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xutility(4145,9): error C2100: niedozwolony operator pośredni
