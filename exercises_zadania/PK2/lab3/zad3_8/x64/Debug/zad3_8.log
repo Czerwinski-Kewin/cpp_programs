@@ -1,0 +1,9 @@
+﻿  OsLiczbowa.cpp
+  Wykres.cpp
+C:\Users\kewo5\Desktop\KC_lab2\lab3\zad3_8\Wykres.h(15,67): warning C4042: „obj”: ma złą klasę magazynu
+C:\Users\kewo5\Desktop\KC_lab2\lab3\zad3_8\Wykres.cpp(32,55): warning C4042: „obj”: ma złą klasę magazynu
+  ZbiorOsi.cpp
+  Źródło.cpp
+C:\Users\kewo5\Desktop\KC_lab2\lab3\zad3_8\Wykres.h(15,67): warning C4042: „obj”: ma złą klasę magazynu
+  Generowanie kodu...
+  zad3_8.vcxproj -> C:\Users\kewo5\Desktop\KC_lab2\lab3\zad3_8\x64\Debug\zad3_8.exe
