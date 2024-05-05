@@ -1,0 +1,3 @@
+﻿  Źródło.cpp
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab2_gwiazdki\Źródło.cpp(11,20): warning C4244: "argument": konwersja z "double" do "const unsigned __int64", możliwa utrata danych
+  lab2_gwiazdki.vcxproj -> C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab2_gwiazdki\x64\Debug\lab2_gwiazdki.exe
