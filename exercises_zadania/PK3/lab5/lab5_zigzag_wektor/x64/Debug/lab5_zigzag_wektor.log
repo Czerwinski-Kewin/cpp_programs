@@ -1,0 +1,15 @@
+﻿  Źródło.cpp
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab5_zigzag_wektor\Źródło.cpp(116,16): error C2662: "T MyVector<T>::get(int)": nie można konwertować wskaźnika "this" z "const MyVector<int>" do "MyVector<int> &"
+          with
+          [
+              T=int
+          ]
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab5_zigzag_wektor\Źródło.cpp(116,17): message : Konwersja traci kwalifikatory
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab5_zigzag_wektor\Vector.h(18,4): message : zobacz deklarację „MyVector<int>::get”
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab5_zigzag_wektor\Źródło.cpp(122,16): error C2662: "T MyVector<T>::get(int)": nie można konwertować wskaźnika "this" z "const MyVector<int>" do "MyVector<int> &"
+          with
+          [
+              T=int
+          ]
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab5_zigzag_wektor\Źródło.cpp(122,17): message : Konwersja traci kwalifikatory
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab5_zigzag_wektor\Vector.h(18,4): message : zobacz deklarację „MyVector<int>::get”
