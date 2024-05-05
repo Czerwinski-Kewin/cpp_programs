@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zad5_7", "zad5_7.vcxproj", "{BBA8B594-8B02-421D-9CC7-A7E0289D1F59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBA8B594-8B02-421D-9CC7-A7E0289D1F59}.Debug|x64.ActiveCfg = Debug|x64
+		{BBA8B594-8B02-421D-9CC7-A7E0289D1F59}.Debug|x64.Build.0 = Debug|x64
+		{BBA8B594-8B02-421D-9CC7-A7E0289D1F59}.Debug|x86.ActiveCfg = Debug|Win32
+		{BBA8B594-8B02-421D-9CC7-A7E0289D1F59}.Debug|x86.Build.0 = Debug|Win32
+		{BBA8B594-8B02-421D-9CC7-A7E0289D1F59}.Release|x64.ActiveCfg = Release|x64
+		{BBA8B594-8B02-421D-9CC7-A7E0289D1F59}.Release|x64.Build.0 = Release|x64
+		{BBA8B594-8B02-421D-9CC7-A7E0289D1F59}.Release|x86.ActiveCfg = Release|Win32
+		{BBA8B594-8B02-421D-9CC7-A7E0289D1F59}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27EBD993-9A36-4673-8350-600FD2321AB5}
+	EndGlobalSection
+EndGlobal

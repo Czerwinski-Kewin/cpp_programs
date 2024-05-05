@@ -1,0 +1,10 @@
+﻿  RealChart.cpp
+C:\Users\kewo5\Desktop\KC_lab2\lab5\zad5_7\Wykres.h(17,67): warning C4042: „obj”: ma złą klasę magazynu
+  Series.cpp
+  Wykres.cpp
+C:\Users\kewo5\Desktop\KC_lab2\lab5\zad5_7\Wykres.h(17,67): warning C4042: „obj”: ma złą klasę magazynu
+C:\Users\kewo5\Desktop\KC_lab2\lab5\zad5_7\Wykres.cpp(41,55): warning C4042: „obj”: ma złą klasę magazynu
+  Źródło.cpp
+C:\Users\kewo5\Desktop\KC_lab2\lab5\zad5_7\Wykres.h(17,67): warning C4042: „obj”: ma złą klasę magazynu
+  Generowanie kodu...
+  zad5_7.vcxproj -> C:\Users\kewo5\Desktop\KC_lab2\lab5\zad5_7\x64\Debug\zad5_7.exe
