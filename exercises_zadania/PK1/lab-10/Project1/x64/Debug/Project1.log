@@ -1,0 +1,9 @@
+﻿  Źródło.cpp
+C:\Users\kewo5\Desktop\KC_lab\lab-10\Project1\Źródło.cpp(6,10): warning C4067: nieoczekiwane tokeny występujące po dyrektywie preprocesora - oczekiwano nowego wiersza
+C:\Users\kewo5\Desktop\KC_lab\lab-10\Project1\Źródło.cpp(44,100): warning C4244: "argument": konwersja z "_Rep" do "unsigned int", możliwa utrata danych
+          with
+          [
+              _Rep=std::chrono::system_clock::rep
+          ]
+C:\Users\kewo5\Desktop\KC_lab\lab-10\Project1\Źródło.cpp(46,13): warning C4244: "inicjowanie": konwersja z "double" do "int", możliwa utrata danych
+  Project1.vcxproj -> C:\Users\kewo5\Desktop\KC_lab\lab-10\Project1\x64\Debug\Project1.exe
