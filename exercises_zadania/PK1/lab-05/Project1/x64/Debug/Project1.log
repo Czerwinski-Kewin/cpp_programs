@@ -1,0 +1,4 @@
+﻿  Źródło.cpp
+C:\Users\kewo5\Desktop\KC_lab\lab-05\Project1\Źródło.cpp(72,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+C:\Users\kewo5\Desktop\KC_lab\lab-05\Project1\Źródło.cpp(74,7): warning C4101: "tekst": lokalna zmienna, do której nie istnieje odwołanie
+  Project1.vcxproj -> C:\Users\kewo5\Desktop\KC_lab\lab-05\Project1\x64\Debug\Project1.exe
