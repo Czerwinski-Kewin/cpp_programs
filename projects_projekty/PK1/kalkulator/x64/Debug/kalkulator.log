@@ -1,0 +1,37 @@
+﻿  main.cpp
+C:\Users\kewo5\Desktop\kalkulator\main.cpp(86,58): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\kewo5\Desktop\kalkulator\main.cpp(267,26): warning C4244: "inicjowanie": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\kewo5\Desktop\kalkulator\main.cpp(286,26): warning C4244: "inicjowanie": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\kewo5\Desktop\kalkulator\main.cpp(337,26): warning C4244: "inicjowanie": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\kewo5\Desktop\kalkulator\main.cpp(333,9): warning C4101: "tmp": lokalna zmienna, do której nie istnieje odwołanie
+C:\Users\kewo5\Desktop\kalkulator\main.cpp(384,69): warning C4244: "argument": konwersja z "double" do "_Ty", możliwa utrata danych
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kewo5\Desktop\kalkulator\main.cpp(385,69): warning C4244: "argument": konwersja z "double" do "_Ty", możliwa utrata danych
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kewo5\Desktop\kalkulator\main.cpp(386,69): warning C4244: "argument": konwersja z "double" do "_Ty", możliwa utrata danych
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kewo5\Desktop\kalkulator\main.cpp(387,69): warning C4244: "argument": konwersja z "double" do "_Ty", możliwa utrata danych
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kewo5\Desktop\kalkulator\main.cpp(388,69): warning C4244: "argument": konwersja z "double" do "_Ty", możliwa utrata danych
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kewo5\Desktop\kalkulator\main.cpp(389,69): warning C4244: "argument": konwersja z "double" do "_Ty", możliwa utrata danych
+          with
+          [
+              _Ty=float
+          ]
+  kalkulator.vcxproj -> C:\Users\kewo5\Desktop\kalkulator\x64\Debug\kalkulator.exe
