@@ -1,0 +1,10 @@
+﻿  Źródło.cpp
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab5_fizzbuzz_singleton\SingleList_Singleton.h(39,26): error C4596: „getInstance”: niedozwolona kwalifikowana nazwa w deklaracji składowej
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab5_fizzbuzz_singleton\SingleList_Singleton.h(45): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „SingleList<T>” klasy klasa szablon
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab5_fizzbuzz_singleton\SingleList_Singleton.h(39,1): error C2686: nie można przeciążać statycznych i niestatycznych funkcji składowych o tych samych typach parametrów
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab5_fizzbuzz_singleton\SingleList_Singleton.h(24,21): message : może to być „SingleList<T> *SingleList<T>::getInstance(void)”
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab5_fizzbuzz_singleton\SingleList_Singleton.h(39,26): message : lub       "SingleList<T> *SingleList<T>::getInstance(void)"
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab5_fizzbuzz_singleton\Źródło.cpp(96,13): error C2664: „void zapis(SingleList<int> &)”: nie można dokonać konwersji argumentu 1 z „SingleList<int> *” do „SingleList<int> &”
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab5_fizzbuzz_singleton\Źródło.cpp(70,6): message : zobacz deklarację „zapis”
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab5_fizzbuzz_singleton\Źródło.cpp(97,14): error C2664: „void odczyt(SingleList<int> &)”: nie można dokonać konwersji argumentu 1 z „SingleList<int> *” do „SingleList<int> &”
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab5_fizzbuzz_singleton\Źródło.cpp(53,6): message : zobacz deklarację „odczyt”
