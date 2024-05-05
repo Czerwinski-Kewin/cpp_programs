@@ -1,0 +1,91 @@
+﻿  Źródło.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\iterator(41,77): error C2039: „value_type”: nie jest składową elementu „SingleList<int>”
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab3_trojkipiragorejskie\Źródło.cpp(44): message : zobacz deklarację „SingleList<int>”
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab3_trojkipiragorejskie\Źródło.cpp(51): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::back_insert_iterator<SingleList<int>>” klasy klasa szablon
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\iterator(41,1): error C7683: nie można utworzyć odwołania do elementu "void"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\iterator(46,71): error C2039: „value_type”: nie jest składową elementu „SingleList<int>”
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab3_trojkipiragorejskie\Źródło.cpp(44): message : zobacz deklarację „SingleList<int>”
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\iterator(46,1): error C7683: nie można utworzyć odwołania do elementu "void"
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab3_trojkipiragorejskie\Źródło.cpp(63,13): error C2679: dwuargumentowy "<<": nie znaleziono żadnego operatora, który przyjmuje prawostronny operand typu "Item<T>" (lub nie istnieje akceptowalna konwersja)
+          with
+          [
+              T=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(475,39): message : może to być „std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)”
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(443,39): message : lub       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(425,39): message : lub       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(407,39): message : lub       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(389,39): message : lub       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(371,39): message : lub       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(353,39): message : lub       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(335,39): message : lub       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(317,39): message : lub       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(298,39): message : lub       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(272,39): message : lub       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(253,39): message : lub       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(219,39): message : lub       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(201,39): message : lub       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(195,39): message : lub       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(189,39): message : lub       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(184,39): message : lub       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))"
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab3_trojkipiragorejskie\Źródło.cpp(63,13): message : podczas próby dopasowania listy argumentów "(std::ofstream, Item<T>)"
+          with
+          [
+              T=int
+          ]
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab3_trojkipiragorejskie\Źródło.cpp(66,16): error C2677: dwuargumentowy "<": nie znaleziono żadnego globalnego operatora, który przyjmuje typ "Item<T>" (lub nie istnieje akceptowalna konwersja)
+          with
+          [
+              T=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(2166,30): message : może to być „bool std::operator <(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)”
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab3_trojkipiragorejskie\Źródło.cpp(66,16): error C2784: „bool std::operator <(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)”: nie może wywnioskować argumentu szablon dla „const std::vector<_Ty,_Alloc> &” z „int”
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(2166): message : zobacz deklarację „std::operator <”
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab3_trojkipiragorejskie\Źródło.cpp(66,16): error C2784: „bool std::operator <(std::nullptr_t,const std::unique_ptr<_Ty,_Dx> &)”: nie może wywnioskować argumentu szablon dla „const std::unique_ptr<_Ty,_Dx> &” z „Item<T>”
+          with
+          [
+              T=int
+          ]
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab3_trojkipiragorejskie\Źródło.cpp(66,16): error C2784: „bool std::operator <(const std::unique_ptr<_Ty,_Dx> &,std::nullptr_t)”: nie może wywnioskować argumentu szablon dla „const std::unique_ptr<_Ty,_Dx> &” z „int”
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab3_trojkipiragorejskie\Źródło.cpp(66,16): error C2784: „bool std::operator <(const std::unique_ptr<_Ty,_Dx> &,const std::unique_ptr<_Ty2,_Dx2> &)”: nie może wywnioskować argumentu szablon dla „const std::unique_ptr<_Ty,_Dx> &” z „int”
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab3_trojkipiragorejskie\Źródło.cpp(66,16): error C2784: „bool std::operator <(std::nullptr_t,const std::shared_ptr<_Ty> &) noexcept”: nie może wywnioskować argumentu szablon dla „const std::shared_ptr<_Ty> &” z „Item<T>”
+          with
+          [
+              T=int
+          ]
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab3_trojkipiragorejskie\Źródło.cpp(66,16): error C2784: „bool std::operator <(const std::shared_ptr<_Ty> &,std::nullptr_t) noexcept”: nie może wywnioskować argumentu szablon dla „const std::shared_ptr<_Ty> &” z „int”
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab3_trojkipiragorejskie\Źródło.cpp(66,16): error C2784: „bool std::operator <(const std::shared_ptr<_Ty> &,const std::shared_ptr<_Ty0> &) noexcept”: nie może wywnioskować argumentu szablon dla „const std::shared_ptr<_Ty> &” z „int”
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab3_trojkipiragorejskie\Źródło.cpp(66,16): error C2784: „bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )”: nie może wywnioskować argumentu szablon dla „const std::basic_string<_Elem,_Traits,_Alloc> &” z „int”
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab3_trojkipiragorejskie\Źródło.cpp(66,16): error C2784: „bool std::operator <(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)”: nie może wywnioskować argumentu szablon dla „const _Elem *const ” z „int”
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab3_trojkipiragorejskie\Źródło.cpp(66,16): error C2784: „bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept”: nie może wywnioskować argumentu szablon dla „const std::basic_string<_Elem,_Traits,_Alloc> &” z „int”
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab3_trojkipiragorejskie\Źródło.cpp(66,16): error C2784: „bool std::operator <(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &)”: nie może wywnioskować argumentu szablon dla „const std::move_iterator<_Iter> &” z „int”
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab3_trojkipiragorejskie\Źródło.cpp(66,16): error C2784: „bool std::operator <(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &)”: nie może wywnioskować argumentu szablon dla „const std::reverse_iterator<_BidIt> &” z „int”
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab3_trojkipiragorejskie\Źródło.cpp(66,16): error C2784: „bool std::operator <(const std::pair<_Ty1,_Ty2> &,const std::pair<_Ty1,_Ty2> &)”: nie może wywnioskować argumentu szablon dla „const std::pair<_Ty1,_Ty2> &” z „int”
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab3_trojkipiragorejskie\Źródło.cpp(73,15): error C2677: dwuargumentowy ">": nie znaleziono żadnego globalnego operatora, który przyjmuje typ "Item<T>" (lub nie istnieje akceptowalna konwersja)
+          with
+          [
+              T=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(2193,30): message : może to być „bool std::operator >(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)”
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab3_trojkipiragorejskie\Źródło.cpp(73,15): error C2784: „bool std::operator >(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)”: nie może wywnioskować argumentu szablon dla „const std::vector<_Ty,_Alloc> &” z „int”
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(2193): message : zobacz deklarację „std::operator >”
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab3_trojkipiragorejskie\Źródło.cpp(73,15): error C2784: „bool std::operator >(std::nullptr_t,const std::unique_ptr<_Ty,_Dx> &)”: nie może wywnioskować argumentu szablon dla „const std::unique_ptr<_Ty,_Dx> &” z „Item<T>”
+          with
+          [
+              T=int
+          ]
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab3_trojkipiragorejskie\Źródło.cpp(73,15): error C2784: „bool std::operator >(const std::unique_ptr<_Ty,_Dx> &,std::nullptr_t)”: nie może wywnioskować argumentu szablon dla „const std::unique_ptr<_Ty,_Dx> &” z „int”
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab3_trojkipiragorejskie\Źródło.cpp(73,15): error C2784: „bool std::operator >(const std::unique_ptr<_Ty,_Dx> &,const std::unique_ptr<_Ty2,_Dx2> &)”: nie może wywnioskować argumentu szablon dla „const std::unique_ptr<_Ty,_Dx> &” z „int”
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab3_trojkipiragorejskie\Źródło.cpp(73,15): error C2784: „bool std::operator >(std::nullptr_t,const std::shared_ptr<_Ty> &) noexcept”: nie może wywnioskować argumentu szablon dla „const std::shared_ptr<_Ty> &” z „Item<T>”
+          with
+          [
+              T=int
+          ]
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab3_trojkipiragorejskie\Źródło.cpp(73,15): error C2784: „bool std::operator >(const std::shared_ptr<_Ty> &,std::nullptr_t) noexcept”: nie może wywnioskować argumentu szablon dla „const std::shared_ptr<_Ty> &” z „int”
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab3_trojkipiragorejskie\Źródło.cpp(73,15): error C2784: „bool std::operator >(const std::shared_ptr<_Ty> &,const std::shared_ptr<_Ty0> &) noexcept”: nie może wywnioskować argumentu szablon dla „const std::shared_ptr<_Ty> &” z „int”
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab3_trojkipiragorejskie\Źródło.cpp(73,15): error C2784: „bool std::operator >(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )”: nie może wywnioskować argumentu szablon dla „const std::basic_string<_Elem,_Traits,_Alloc> &” z „int”
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab3_trojkipiragorejskie\Źródło.cpp(73,15): error C2784: „bool std::operator >(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)”: nie może wywnioskować argumentu szablon dla „const _Elem *const ” z „int”
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab3_trojkipiragorejskie\Źródło.cpp(73,15): error C2784: „bool std::operator >(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept”: nie może wywnioskować argumentu szablon dla „const std::basic_string<_Elem,_Traits,_Alloc> &” z „int”
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab3_trojkipiragorejskie\Źródło.cpp(73,15): error C2784: „bool std::operator >(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &)”: nie może wywnioskować argumentu szablon dla „const std::move_iterator<_Iter> &” z „int”
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab3_trojkipiragorejskie\Źródło.cpp(73,15): error C2784: „bool std::operator >(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &)”: nie może wywnioskować argumentu szablon dla „const std::reverse_iterator<_BidIt> &” z „int”
+C:\Users\kewo5\Desktop\KC_lab3\Laboratorium\lab3_trojkipiragorejskie\Źródło.cpp(73,15): error C2784: „bool std::operator >(const std::pair<_Ty1,_Ty2> &,const std::pair<_Ty1,_Ty2> &)”: nie może wywnioskować argumentu szablon dla „const std::pair<_Ty1,_Ty2> &” z „int”
